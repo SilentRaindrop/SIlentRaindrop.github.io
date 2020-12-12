@@ -346,20 +346,18 @@
     
     
     <article class="index-post">
-        <a class="abstract-title" href = "/2020/03/16/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9F%A5%E8%AF%86%E7%82%B9%E6%8F%90%E7%82%BC/" >
+        <a class="abstract-title" href = "/2020/11/18/%E5%85%B3%E4%BA%8E%E4%BD%BF%E7%94%A8clion%E6%97%B6%E9%81%87%E5%88%B0%E7%9A%84%E9%97%AE%E9%A2%98/" >
             
-                <span>计算机网络知识点提炼</span>
+                <span>关于使用clion时遇到的问题</span>
         </a>
         <div class="abstract-content">
-            计算机网络自顶向下第一章 TCP/IP协议体系的认知TCI/IP自顶向下：应用层 传输层 网际层 网络接口层    
-OSI参考模型自顶向下：应用层 表达层 会话层 传输层 网络层 数据链路层 物理层  
-综合 自顶向下： 应用层 传输层 网络层 数据链路层 物理层  第二章 应用层###DNS协议  
-第三章第四章第五章第六章
+            一开始觉得用clion写c的话会比较好，于是就下载了clion尝尝鲜，结果运行第一个程序就出问题了：显示Error:CreateProcess error=216, 该版本的 %1 与您运行的 Windows 版本不兼容。在网上找了很多解决方案，其中一种是：Tools-CMake-Reset Cache and Reload Project,我试了一下果然可行，但是下一个项目又不行了。然后又找了另一个方法：运行cmd启动命令行，输入：for %1 in (%windir%\system32*.dll) do regsvr32.exe /s %1 ，等待运行完毕后重启，至此问题解决。
+
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
             <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/03/16</span>
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/11/18</span>
             </div>
             <!-- tags  -->
             

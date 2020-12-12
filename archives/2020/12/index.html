@@ -346,20 +346,107 @@
     
     
     <article class="index-post">
-        <a class="abstract-title" href = "/2020/03/16/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C%E7%9F%A5%E8%AF%86%E7%82%B9%E6%8F%90%E7%82%BC/" >
+        <a class="abstract-title" href = "/2020/12/08/Java%E4%B9%8B%E7%BD%91%E7%BB%9C%E7%BC%96%E7%A8%8B/" >
             
-                <span>计算机网络知识点提炼</span>
+                <span>Java之网络编程</span>
         </a>
         <div class="abstract-content">
-            计算机网络自顶向下第一章 TCP/IP协议体系的认知TCI/IP自顶向下：应用层 传输层 网际层 网络接口层    
-OSI参考模型自顶向下：应用层 表达层 会话层 传输层 网络层 数据链路层 物理层  
-综合 自顶向下： 应用层 传输层 网络层 数据链路层 物理层  第二章 应用层###DNS协议  
-第三章第四章第五章第六章
+            Java之网络编程1.网络通信1.1网络编程中有两个主要问题：
+如何准确定位网络中的一台或多台主机
+
+找到主机之后如何通信
+
+
+2.网络编程中的要素
+IP和端口号
+
+网络通信协议TCP,UDP
+
+
+3.万物皆对象2.IPip地址：InetAddress（主要方法）
+
+唯一定位网络上一台计算机
+
+127.0.0.1：本机localhost
+
+ip地址的分类
+
+ipv4/ipv6
+
+ipv4:4个字节32位
+ipv6:128位
+
+
+公网(互联网)-私网(局域网)
+
+​    ABCD类地址
+
+
+
+
+InetAddress使用：
+
+
+123456789101112131415161718192...
         </div>
         <div class="abstract-post-meta">
             <!-- date  -->
             <div class="abstract-date">
-                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/03/16</span>
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/12/08</span>
+            </div>
+            <!-- tags  -->
+            
+        </div>
+    </article>
+    
+    
+    
+    
+    
+    
+    <article class="index-post">
+        <a class="abstract-title" href = "/2020/12/07/Java%E5%AD%A6%E4%B9%A0%E4%B9%8BMaven/" >
+            
+                <span>Java学习之Maven</span>
+        </a>
+        <div class="abstract-content">
+            Java学习之Maven1.基本介绍Maven是一个Java项目的管理和构建工具：
+
+Maven使用pom.xml定义项目内容，并使用预设的目录结构；
+在Maven中声明一个依赖项可以自动下载并导入classpath；
+Maven使用groupId，artifactId和version唯一定位一个依赖。
+
+其中，groupId类似于Java的包名，通常是公司或组织名称，artifactId类似于Java的类名，通常是项目名称，再加上version，一个Maven工程就是由groupId，artifactId和version作为唯一标识。我们在引用其他第三方库的时候，也是通过这3个变量确定...
+        </div>
+        <div class="abstract-post-meta">
+            <!-- date  -->
+            <div class="abstract-date">
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/12/07</span>
+            </div>
+            <!-- tags  -->
+            
+        </div>
+    </article>
+    
+    
+    
+    
+    
+    
+    <article class="index-post">
+        <a class="abstract-title" href = "/2020/12/05/Java%E5%A4%9A%E7%BA%BF%E7%A8%8B%E5%AD%A6%E4%B9%A0/" >
+            
+                <span>Java多线程学习</span>
+        </a>
+        <div class="abstract-content">
+            Java多线程学习1、创建线程方式1.自定义线程类继承Thread类，重写run()方法，调用start开启线程；
+(不建议使用：避免oop单继承局限性)
+123456789101112131415161718public class starttest &#123;    public static void main(String[] args) throws InterruptedException &#123;        Thread t=new myThread();        t.start();        System.out.println("thread e...
+        </div>
+        <div class="abstract-post-meta">
+            <!-- date  -->
+            <div class="abstract-date">
+                <span class="abstract-calander iconfont-archer">&#xe676;</span><span class="abstract-time">2020/12/05</span>
             </div>
             <!-- tags  -->
             
